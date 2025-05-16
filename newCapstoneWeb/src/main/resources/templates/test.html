@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>뉴스 판별</title>
+</head>
+<body>
+    <h2>뉴스 문장 입력</h2>
+    <form action="/news/predict" method="post">
+        <textarea name="userCode" rows="5" cols="60"></textarea>
+        <input type="submit" value="예측하기">
+    </form>
+</body>
+</html>
